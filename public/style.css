@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url('aidenbg.PNG') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo {
+  width: 3cm;
+  height: 3cm;
+}
+
+.folder {
+  display: inline-block;
+  margin: 20px;
+}
+
+.folder-cover {
+  width: 120px;
+  height: 120px;
+  border-radius: 12px;
+  display: block;
+}
+
+.folder-name {
+  margin-top: 8px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
